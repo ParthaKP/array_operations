@@ -14,9 +14,9 @@ int main(){
     printf("Enter Search element: ");
     scanf("%d",&ele);
     for(i=0;i<n;i++){
-        if(a[i] == ele)
+        if(a[i] == ele){
         found = 1;
-        pos = i;
+        pos = i;}
 }
     if (found = 1)
     printf("Element found in position %d",pos);
