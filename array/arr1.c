@@ -18,7 +18,7 @@ int main(){
         found = 1;
         pos = i;}
 }
-    if (found = 1)
+    if (found == 1)
     printf("Element found in position %d",pos);
     else 
     printf("Element not found");
